@@ -1,0 +1,29 @@
+{
+  "name": "tioammar.com",
+  "version": "0.0.1",
+  "description": "Tioammar API",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.4",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodejs server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "blog",
+    "api",
+    "rest",
+    "node",
+    "mongodb"
+  ],
+  "author": "tioammar",
+  "license": "MIT"
+}
