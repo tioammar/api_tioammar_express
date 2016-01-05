@@ -30,7 +30,7 @@ app.get('/blog', function(req, res){
 
 app.get('/blog/:id', function(req, res){
 	var id = req.params.id;
-	blogController.findById(function(id, callback){
+	blogController.findById(id, function(callback){
 	    res.send(JSON.stringify(callback));
 	})
 });

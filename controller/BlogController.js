@@ -18,8 +18,8 @@ var BlogController = function(){
     };
 
     this.findById = function(id, callback){
-        model.findById(id).then(function(blogs){
-            callback(blogs);
+        model.findById(id).then(function(blog){
+            callback(blog);
         }).catch(function(err){
             callback({
                 error: true,

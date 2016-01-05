@@ -20,10 +20,10 @@ var BlogModel = function(){
 
     this.post = function(data){
         var def = q.defer();
-        var blog = new model(data);
-        blog.save(function(err, blogs){
+        var post = new model(data);
+        post.save(function(err, blog){
             if (err) def.reject(err);
-            else def.resolve(blogs);
+            else def.resolve(blog);
         });
         return def.promise;
     };
